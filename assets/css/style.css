@@ -1,0 +1,74 @@
+:root{
+    --bg-amcc:#660A82;
+}
+
+*{
+    font-family: 'Gothic A1', sans-serif !important;
+}
+
+header .container-fluid {
+    padding: 0px;
+}
+
+.top-header{
+    background-color: var(--bg-amcc);
+    color: #fff;
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+}
+
+.bottom-header{
+    background-color: #F5F6F6;
+    color: black;
+    padding: 20px 15px 20px 15px;
+    text-align: center;
+}
+
+.top-header h6, .bottom-header h6{
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.top-header .position-absolute{
+    margin-top: -25px;
+    background-color: white;
+    padding: 30px 25px 30px 25px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 30px 30px;
+}
+
+.top-header .logo-center{
+    width: 87px;
+    height: 87px;
+}
+
+.top-header .white-space .title {
+    margin-left: 1.7rem;
+}
+
+.top-header .white-space .title h6 {
+    font-size: 12px;
+    color: #003877;
+    text-align: left;
+}
+
+.top-header .white-space .title h4 {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.segment-header .image-segment {
+    height: 350px;
+    width: 100%;
+    /* object-fit: cover; */
+}
+
+.bg-custom{
+    background-color: #F6F7F8 !important;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
