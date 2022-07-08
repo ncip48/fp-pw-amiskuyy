@@ -155,3 +155,33 @@ footer p {
 footer .icon-text {
     font-size: 12px;
 }
+
+footer .title {
+    display: block;
+    padding: 8px 0 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    width: 50%;
+}
+
+footer ul {
+    color: #fff;
+    list-style:square;
+    padding: 0;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+footer li {
+    text-transform: uppercase;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer .icon-sosmed {
+    font-size: 22px;
+}
