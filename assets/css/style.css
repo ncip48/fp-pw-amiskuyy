@@ -4,7 +4,7 @@
 }
 
 *{
-    /* font-family: 'Gothic A1', sans-serif !important; */
+    font-family: 'Gothic A1', sans-serif;
 }
 
 header .container-fluid {
@@ -140,9 +140,9 @@ footer {
 }
 
 footer .img-footer {
-    height: 50px;
+    height: 70px;
     width: 200px;
-    object-fit: contain;
+    /* object-fit: contain; */
 }
 
 footer p {
@@ -184,4 +184,13 @@ footer a {
 
 footer .icon-sosmed {
     font-size: 22px;
+}
+
+footer .box a {
+    color: #fff !important;
+}
+
+footer .box a:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
