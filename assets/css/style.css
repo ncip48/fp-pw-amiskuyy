@@ -4,7 +4,7 @@
 }
 
 *{
-    font-family: 'Gothic A1', sans-serif !important;
+    /* font-family: 'Gothic A1', sans-serif !important; */
 }
 
 header .container-fluid {
@@ -13,9 +13,18 @@ header .container-fluid {
 
 .top-header{
     background-color: var(--bg-amcc);
-    color: #fff;
+    color: #fff !important;
     padding: 20px 15px 20px 15px;
     text-align: center;
+}
+
+.top-header a {
+    color: #fff !important;
+}
+
+.top-header a:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .bottom-header{
@@ -27,8 +36,17 @@ header .container-fluid {
 
 .top-header h6, .bottom-header h6{
     margin-bottom: 0px;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 14px;
+}
+
+.bottom-header a {
+    color: black !important;
+}
+
+.bottom-header a:hover {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .top-header .position-absolute{
@@ -106,4 +124,34 @@ header .container-fluid {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2rem;
     padding-left: 2rem;
+}
+
+footer {
+    background-color: #61176D;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inner-footer {
+    background-color: #841996;
+    border-radius: 20px;
+    color: white !important;
+    padding: 15px;
+}
+
+footer .img-footer {
+    height: 50px;
+    width: 200px;
+    object-fit: contain;
+}
+
+footer p {
+    color: white !important;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+footer .icon-text {
+    font-size: 12px;
 }
