@@ -1,5 +1,5 @@
 :root{
-    --bg-amcc:#660A82;
+    --bg-amikom:#660A82;
     --bg-oren: #FB9E13;
 }
 
@@ -12,7 +12,7 @@ header .container-fluid {
 }
 
 .top-header{
-    background-color: var(--bg-amcc);
+    background-color: var(--bg-amikom);
     color: #fff !important;
     padding: 20px 15px 20px 15px;
     text-align: center;
@@ -95,12 +95,12 @@ header .container-fluid {
 .navbar-light .navbar-nav > .active > a,
 .navbar-light .navbar-nav > .active > a:hover,
 .navbar-light .navbar-nav > .active > a:focus {
-  color: var(--bg-amcc);
+  color: var(--bg-amikom);
   text-decoration: none;
 }
 
 .navbar-light .navbar-nav > .active > a:hover {
-    color: var(--bg-amcc);
+    color: var(--bg-amikom);
 }
 
 .navbar-light .navbar-nav > .active > a{
@@ -113,7 +113,7 @@ header .container-fluid {
 }
 
 .navbar-nav .nav-item .nav-link {
-    color: var(--bg-amcc);
+    color: var(--bg-amikom);
     font-weight: 500;
 }
 .navbar-nav .nav-item.active .nav-link,
@@ -193,4 +193,75 @@ footer .box a {
 footer .box a:hover {
     text-decoration: none;
     font-weight: bold;
+}
+
+.img-pmb {
+    height: 250px;
+    width: 250px;
+    /* object-fit: contain; */
+}
+
+.pmb-button {
+    padding:15px;
+    background-color: var(--bg-amikom);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pmb-button:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: var(--bg-oren);
+}
+
+.prestasi {
+    padding: 2rem 0px 2rem 0px;
+    background-color: var(--bg-amikom);
+}
+
+.prestasi h3 {
+    color: white;
+}
+
+.prestasi h6 a, .berita h6 a {
+    color: black;
+    text-decoration: none;
+}
+
+.prestasi h6 a:hover{
+    color: var(--bg-oren);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.berita h6 a:hover {
+    color: var(--bg-amikom);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.prestasi .card {
+    border-color: var(--bg-amikom);
+}
+
+.berita .card {
+    border-color: var(--bg-oren);
+}
+
+.berita h6 a {
+    font-weight: bold;
+}
+
+.berita .card-img-top {
+    height: 200px;
+    width: 200px;
+}
+
+.youtube-frame {
+    border-width: 5px !important;
+    border-color: var(--bg-oren) !important;
+    border-radius: 0.25rem !important;
+    border: 5px solid var(--bg-oren) !important;
 }
