@@ -270,3 +270,12 @@ footer .box a:hover {
     color: var(--bg-oren);
     font-weight: bold;
 }
+
+.detail-berita p {
+    text-align: justify;
+}
+
+.detail-berita p img {
+    width: 500px;
+    height: 350px;
+}
