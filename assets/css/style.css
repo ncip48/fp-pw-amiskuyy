@@ -283,3 +283,11 @@ footer .box a:hover {
 .detail-prestasi h6 {
     font-weight: bold;
 }
+
+.visi h4 {
+    font-weight: bold;
+}
+
+.visi ul {
+    list-style-type: square;
+}
