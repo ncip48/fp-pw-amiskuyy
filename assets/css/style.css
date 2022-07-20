@@ -265,3 +265,8 @@ footer .box a:hover {
     border-radius: 0.25rem !important;
     border: 5px solid var(--bg-oren) !important;
 }
+
+.welcome span {
+    color: var(--bg-oren);
+    font-weight: bold;
+}
