@@ -271,11 +271,15 @@ footer .box a:hover {
     font-weight: bold;
 }
 
-.detail-berita p {
+.detail-berita p, .detail-prestasi p, .sejarah p {
     text-align: justify;
 }
 
 .detail-berita p img {
     width: 500px;
     height: 350px;
+}
+
+.detail-prestasi h6 {
+    font-weight: bold;
 }
