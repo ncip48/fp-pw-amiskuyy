@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <title>RPS | D3 Teknik Informatika</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="container-fluid text-center">
+        <div class="top-header">
+          <div class="row">
+            <div class="col-md-2">
+              <h6><a href="sejarah.html">Sejarah</a></h6>
+            </div>
+            <div class="col-md-2">
+              <h6><a href="visi.html">Visi & Misi</a></h6>
+            </div>
+            <div class="col-md-4 col-12 white-space">
+              <div class="position-absolute">
+                <div class="d-flex">
+                  <img
+                    src="assets/images/logo.png"
+                    alt="logo"
+                    class="logo-center"
+                  />
+                  <div class="d-flex flex-column title">
+                    <h6>Creative Economy Park</h6>
+                    <h4>D3 TEKNIK INFORMATIKA AMIKOM</h4>
+                    <h6>
+                      (University based on creative economy and
+                      entrepreneurship)
+                    </h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <h6><a href="deskripsi.html">Deskripsi Prodi</a></h6>
+            </div>
+            <div class="col-md-2">
+              <h6><a href="pengelola.html">Pengelola Prodi</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-header">
+          <div class="row">
+            <div class="col-md-2">
+              <h6><a href="konsentrasi.html">Konsentrasi</a></h6>
+            </div>
+            <div class="col-md-2">
+              <h6><a href="kalender.html">Kalender Akademik</a></h6>
+            </div>
+            <div class="col-md-4 white-space"></div>
+            <div class="col-md-2">
+              <h6><a href="kurikulum.html">Kurikulum</a></h6>
+            </div>
+            <div class="col-md-2">
+              <h6><a href="krs.html">KRS</a></h6>
+            </div>
+          </div>
+        </div>
+        <div class="segment-header">
+          <img
+            src="assets/images/amikom.png"
+            alt="logo"
+            class="image-segment"
+          />
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-custom">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="magang.html">Magang </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ta.html">Tugas Akhir</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="rps.html">RPS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prestasi.html">Prestasi Mahasiswa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Prodi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="kompetensi.html">Kompetensi</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- content -->
+    <section>
+      <div class="jumbotron jumbotron-fluid mb-5 welcome">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <h2>
+                RPS Semester 1 - 6 <br /><span>D3 Teknik Informatika</span>
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container pb-5 konsentrasi-inner kalender rps">
+        <br />
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  data-toggle="collapse"
+                  data-target="#smt1"
+                  aria-expanded="true"
+                  aria-controls="smt1"
+                >
+                  Semester 1
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="smt1"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <table style="width: 100%" class="table table-hover">
+                  <tbody>
+                    <tr class="bg-amcc-oren">
+                      <td><strong>No</strong></td>
+                      <td>
+                        <strong>Kode <br /></strong>
+                      </td>
+                      <td><strong>Matakuliah</strong></td>
+                      <td><strong>SKS</strong></td>
+                      <td><strong>Jenis</strong></td>
+                      <td>&nbsp;<strong>RPS</strong></td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>DT-001</td>
+                      <td>Pendidikan Pancasila</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122095859.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>DT-002</td>
+                      <td>Pendidikan Agama (Etika Muslim)</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>DT-003</td>
+                      <td>Pendidikan Agama (Etika Non Muslim)</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>DT-008</td>
+                      <td>Bahasa Inggris I</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122095459.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>DT-060</td>
+                      <td>Logika Informatika</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>DT-003</td>
+                      <td>Sistem operasi</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https:/blogarch.amikom.ac.id/2022/0122/20220122104200.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>DT-055</td>
+                      <td>Etika Profesi</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>DT-095</td>
+                      <td>Pengantar IT &amp; Instalasi Komputer</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122104405.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>DT-096</td>
+                      <td>Ekonomi Kreatif</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>DT-097</td>
+                      <td>Fotografi</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122104547.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#smt2"
+                  aria-expanded="false"
+                  aria-controls="smt2"
+                >
+                  Semester 2
+                </button>
+              </h5>
+            </div>
+            <div
+              id="smt2"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <table style="width: 100%" class="table table-hover">
+                  <tbody>
+                    <tr class="bg-amcc-oren">
+                      <td><strong>No</strong></td>
+                      <td>
+                        <strong>Kode <br /></strong>
+                      </td>
+                      <td><strong>Matakuliah</strong></td>
+                      <td><strong>SKS</strong></td>
+                      <td><strong>Jenis</strong></td>
+                      <td>&nbsp;<strong>RPS</strong></td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>DT-013</td>
+                      <td>Lingkungan Bisnis</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>DT-016</td>
+                      <td>Bahasa Inggris II</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>DT-057</td>
+                      <td>Algoritma &amp; Pemrograman</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>DT-064</td>
+                      <td>Pendidikan Kewarganegaraan</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>DT-100</td>
+                      <td>Jaringan Komputer I</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>DT-003</td>
+                      <td>Perancangan Web 1</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>DT-003</td>
+                      <td>Desain Grafis</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#smt3"
+                  aria-expanded="false"
+                  aria-controls="smt3"
+                >
+                  Semester 3
+                </button>
+              </h5>
+            </div>
+            <div
+              id="smt3"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <table style="width: 100%" class="table table-hover">
+                  <tbody>
+                    <tr class="bg-amcc-oren">
+                      <td><strong>No</strong></td>
+                      <td>
+                        <strong>Kode <br /></strong>
+                      </td>
+                      <td><strong>Matakuliah</strong></td>
+                      <td><strong>SKS</strong></td>
+                      <td><strong>Jenis</strong></td>
+                      <td>&nbsp;<strong>RPS</strong></td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>DT-001</td>
+                      <td>Metodologi Penelitian</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122102900.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>DT-002</td>
+                      <td>Bahasa Indonesia</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122103936.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>DT-008</td>
+                      <td>Sukses Skill</td>
+                      <td>4</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>DT-064</td>
+                      <td>Multimedia</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122103041.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>DT-152</td>
+                      <td>Struktur Data</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122104751.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>DT-170</td>
+                      <td>Perancangan Web II</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122095135.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>DT-105</td>
+                      <td>Pengolahan Basis Data</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>DT-106</td>
+                      <td>E-Commerce</td>
+                      <td>2</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122102743.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>DT-153</td>
+                      <td>Jaringan Komputer II</td>
+                      <td>2</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>DT-064</td>
+                      <td>Pengantar Film Animasi 2D</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>DT-064</td>
+                      <td>Storyboard &amp; Animatic</td>
+                      <td>4</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>DT-064</td>
+                      <td>Animasi Dasar</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>DT-064</td>
+                      <td>Motion Grafik</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td>DT-113</td>
+                      <td>Perancangan Film Kartun</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122101953.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>DT-064</td>
+                      <td>Teknik Anatomi Dasar</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122100215.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#smt4"
+                  aria-expanded="false"
+                  aria-controls="smt4"
+                >
+                  Semester 4
+                </button>
+              </h5>
+            </div>
+            <div
+              id="smt4"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <table style="width: 100%" class="table table-hover">
+                  <tbody>
+                    <tr class="bg-amcc-oren">
+                      <td><strong>No</strong></td>
+                      <td>
+                        <strong>Kode <br /></strong>
+                      </td>
+                      <td><strong>Matakuliah</strong></td>
+                      <td><strong>SKS</strong></td>
+                      <td><strong>Jenis</strong></td>
+                      <td>&nbsp;<strong>RPS</strong></td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>DT-108</td>
+                      <td>User Interface &amp; User Experience</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>DT-116</td>
+                      <td>Hybrid Web Development</td>
+                      <td>2</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>DT-117</td>
+                      <td>Pemrograman Web Lanjut</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>DT-118</td>
+                      <td>Pemasaran Digital</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>DT-152</td>
+                      <td>Keamanan Web</td>
+                      <td>4</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>DT-170</td>
+                      <td>Development Framework</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td>DT-105</td>
+                      <td>Bisnis Digital</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td>DT-157</td>
+                      <td>Manajemen Proyek IT</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>9</td>
+                      <td>DT-139</td>
+                      <td>Nirkabel &amp; Manajemen Jaringan</td>
+                      <td>4</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>10</td>
+                      <td>DT-161</td>
+                      <td>OS Server &amp; Sys Admin</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>11</td>
+                      <td>DT-162</td>
+                      <td>Komputasi Awan</td>
+                      <td>4</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>12</td>
+                      <td>DT-064</td>
+                      <td>Jaringan Komputer III</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>13</td>
+                      <td>DT-138</td>
+                      <td>Keamanan Jaringan</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>14</td>
+                      <td>DT-169</td>
+                      <td>Windows Server</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>15</td>
+                      <td>DT-169</td>
+                      <td>Background</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>16</td>
+                      <td>DT-169</td>
+                      <td>Concept Art 1</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122095311.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>17</td>
+                      <td>DT-169</td>
+                      <td>Animasi 3D</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>18</td>
+                      <td>DT-169</td>
+                      <td>Screen Writing &amp; Sinematografi</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>19</td>
+                      <td>DT-169</td>
+                      <td>Digital Painting</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>20</td>
+                      <td>DT-169</td>
+                      <td>Compositing &amp; Editing</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>21</td>
+                      <td>DT-169</td>
+                      <td>Teknik Anatomi Lanjut</td>
+                      <td>4</td>
+                      <td>teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122100627.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>22</td>
+                      <td>DT-169</td>
+                      <td>Animasi Lanjut</td>
+                      <td>2</td>
+                      <td>Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#smt5"
+                  aria-expanded="false"
+                  aria-controls="smt5"
+                >
+                  Semester 5
+                </button>
+              </h5>
+            </div>
+            <div
+              id="smt5"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                <table style="width: 100%" class="table table-hover">
+                  <tbody>
+                    <tr class="bg-amcc-oren">
+                      <td><strong>No</strong></td>
+                      <td>
+                        <strong>Kode <br /></strong>
+                      </td>
+                      <td><strong>Matakuliah</strong></td>
+                      <td><strong>SKS</strong></td>
+                      <td><strong>Jenis</strong></td>
+                      <td>&nbsp;<strong>RPS</strong></td>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>DT-132</td>
+                      <td>Manajemen Strategik</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>DT-167</td>
+                      <td>Komunikasi &amp; Negosiasi</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td>DT-104</td>
+                      <td>Kepemimpinan</td>
+                      <td>2</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>DT-130</td>
+                      <td>Bahasa Inggris III</td>
+                      <td>4</td>
+                      <td>Teori</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122103645.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td>DT-132</td>
+                      <td>Pemrograman Phyton</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>DT-168</td>
+                      <td>Proyek Pemrograman Seluler</td>
+                      <td>4</td>
+                      <td>Teori/Praktik</td>
+                      <td>
+                        <a
+                          href="https://blogarch.amikom.ac.id/2022/0122/20220122104921.pdf"
+                          >Download</a
+                        >
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td>DT-154</td>
+                      <td>Kerja Praktek (Magang)</td>
+                      <td>8</td>
+                      <td>Teori</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#smt6"
+                  aria-expanded="false"
+                  aria-controls="smt6"
+                >
+                  Semester 6
+                </button>
+              </h5>
+            </div>
+            <div
+              id="smt6"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <div class="p-3">
+        <div class="inner-footer">
+          <div class="row">
+            <div class="col-md-4 col-12 pr-5">
+              <img
+                src="assets/images/logo-bottom.png"
+                alt="logo-bottom"
+                class="img-footer"
+              />
+              <p class="my-3">
+                Diselenggarakan oleh<br />Yayasan Amikom Yogyakarta Jl.
+                Padjajaran, Ring Road Utara, Kel. Condongcatur, Kec. Depok, Kab.
+                Sleman, Prop. Daerah Istimewa Yogyakarta
+              </p>
+              <span class="d-flex align-items-center icon-text mb-1">
+                <i class="fa fa-envelope mr-2"></i>yayasan@amikom.ac.id</span
+              >
+              <span class="d-flex align-items-center icon-text mb-1">
+                <i class="fa fa-envelope mr-2"></i>amikom@amikom.ac.id</span
+              >
+              <span class="d-flex align-items-center icon-text mb-3">
+                <i class="fa fa-phone mr-2"></i>(0274) 884201 – 207</span
+              >
+            </div>
+            <div class="col-md-3 col-12">
+              <div class="box">
+                <span class="title">Menu</span>
+                <ul>
+                  <li><a href="#" target="_blank">Pendaftaran</a></li>
+                  <li><a href="#" target="_blank">Profil Amikom</a></li>
+                  <li><a href="#" target="_blank">Login</a></li>
+                  <li><a href="#" target="_blank">Dosen</a></li>
+                  <li><a href="#" target="_blank">E-learning</a></li>
+                  <li><a href="#" target="_blank">E-learning Waskita</a></li>
+                  <li><a href="#" target="_blank">Wisuda</a></li>
+                  <li><a href="#" target="_blank">Repository</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-12">
+              <div class="box">
+                <span class="title">Link</span>
+                <ul>
+                  <li><a href="#" target="_blank">Akademik</a></li>
+                  <li><a href="#" target="_blank">Kemahasiswaan</a></li>
+                  <li><a href="#" target="_blank">Penelitian</a></li>
+                  <li><a href="#" target="_blank">Pengabdian</a></li>
+                  <li><a href="#" target="_blank">Keuangan</a></li>
+                  <li><a href="#" target="_blank">Internasional</a></li>
+                  <li><a href="#" target="_blank">Innovation Center</a></li>
+                  <li><a href="#" target="_blank">Laboratorium</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 col-12 align-self-end">
+              <div
+                class="d-flex flex-row icon-sosmed justify-content-end align-items-end"
+              >
+                <a
+                  href="http://facebook.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mr-4"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a
+                  href="http://twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mr-4"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a
+                  href="http://instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mr-4"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a
+                  href="http://youtube.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>

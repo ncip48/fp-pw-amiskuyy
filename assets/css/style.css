@@ -330,3 +330,19 @@ footer .box a:hover {
     text-decoration: none;
     font-weight: bold;
 }
+
+.bg-amcc-oren {
+    background-color: var(--bg-oren);
+    color: white;
+}
+
+.rps h5 button {
+    color: black;
+    text-decoration: none;
+}
+
+.rps h5 button:hover, .rps h5 button:focus {
+    color: var(--bg-oren);
+    text-decoration: none;
+    font-weight: bold;
+}
