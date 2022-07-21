@@ -292,6 +292,14 @@ footer .box a:hover {
     list-style-type: square;
 }
 
+.konsentrasi-inner p {
+    text-align: justify;
+}
+
+.konsentrasi-inner h6, .konsentrasi-inner h4 {
+    font-weight: bold;
+}
+
 .konsentrasi img {
     height: 200px;
     width: 100%;
