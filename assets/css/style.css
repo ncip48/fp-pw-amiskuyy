@@ -291,3 +291,23 @@ footer .box a:hover {
 .visi ul {
     list-style-type: square;
 }
+
+.konsentrasi img {
+    height: 200px;
+    width: 100%;
+}
+
+.konsentrasi h6 a, .berita h6 a {
+    color: black;
+    text-decoration: none;
+}
+
+.konsentrasi h6 a:hover{
+    color: var(--bg-oren);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.konsentrasi .card {
+    border-color: var(--bg-amikom);
+}
