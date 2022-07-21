@@ -319,3 +319,14 @@ footer .box a:hover {
 .konsentrasi .card {
     border-color: var(--bg-amikom);
 }
+
+.kalender a {
+    color: var(--bg-amikom);
+    text-decoration: none;
+}
+
+.kalender a:hover{
+    color: var(--bg-oren);
+    text-decoration: none;
+    font-weight: bold;
+}
