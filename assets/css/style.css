@@ -225,12 +225,12 @@ footer .box a:hover {
     color: white;
 }
 
-.prestasi h6 a, .berita h6 a {
+.prestasi h6 a, .prestasi-page h6 a, .berita h6 a {
     color: black;
     text-decoration: none;
 }
 
-.prestasi h6 a:hover{
+.prestasi h6 a:hover, .prestasi-page h6 a:hover{
     color: var(--bg-oren);
     text-decoration: none;
     font-weight: bold;
@@ -242,7 +242,7 @@ footer .box a:hover {
     font-weight: bold;
 }
 
-.prestasi .card {
+.prestasi .card, .prestasi-page .card {
     border-color: var(--bg-amikom);
 }
 
